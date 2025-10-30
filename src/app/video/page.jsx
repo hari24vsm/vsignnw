@@ -75,10 +75,10 @@ export default function Videopage() {
   return (
     <section
       ref={heroRef}
-      className="relative h-[90vh] w-full overflow-hidden will-change-transform "
+      className="relative h-[100vh] w-full overflow-hidden will-change-transform "
     >
       {/* Background Video */}
-      <div className="absolute inset-0 transition-opacity duration-1000 ease-in-out lg:pt-[86px]">
+      <div className="absolute inset-0 transition-opacity duration-1000 ease-in-out lg:pt-[75px]">
         <video
           key={isMobile ? mobileVideo : desktopVideos[currentVideo]} // key triggers smooth reload
           ref={videoRef}

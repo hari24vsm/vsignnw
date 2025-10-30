@@ -63,7 +63,7 @@ export default function DroneShoots() {
             transition={{ type: "spring", stiffness: 250, damping: 18 }}
             className={`px-6 py-2 rounded-full text-sm font-medium transition-colors duration-300 ${
               activeBrand.name === brand.name
-                ? "bg-[#00b050] text-white"
+                ? "bg-[#50B848] text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             }`}
           >
@@ -89,7 +89,7 @@ export default function DroneShoots() {
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
-              className="overflow-hidden rounded-2xl shadow-md"
+              className="overflow-hidden  shadow-md"
             >
               {item.type === "image" ? (
                 <motion.img

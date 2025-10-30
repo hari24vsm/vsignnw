@@ -1,20 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 -1 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.02744 7.27271C0.848395 10.3893 1.41536 13.4881 2.67269 16.5692C3.93002 19.6502 5.7667 22.3988 8.18273 24.8148C10.5988 27.2308 13.3473 29.0675 16.4283 30.3248C19.5095 31.5822 22.6082 32.1318 25.7249 31.9734L25.6129 24.9352C20.9073 24.9352 16.8907 23.2715 13.5633 19.9441C10.236 16.6167 8.57225 12.6002 8.57225 7.89457L1.02744 7.27271Z" fill="url(#paint0_linear_103_1456)"/>
-<path d="M25.7298 31.9999C29.7464 31.9999 33.0025 28.7438 33.0025 24.7272C33.0025 20.7106 29.7464 17.4545 25.7298 17.4545C21.7131 17.4545 18.457 20.7106 18.457 24.7272C18.457 28.7438 21.7131 31.9999 25.7298 31.9999Z" fill="url(#paint1_radial_103_1456)"/>
-<path d="M8.27468 14.5455C12.2913 14.5455 15.5474 11.2893 15.5474 7.27273C15.5474 3.25611 12.2913 0 8.27468 0C4.25806 0 1.00195 3.25611 1.00195 7.27273C1.00195 11.2893 4.25806 14.5455 8.27468 14.5455Z" fill="url(#paint2_radial_103_1456)"/>
-<defs>
-<linearGradient id="paint0_linear_103_1456" x1="13.36" y1="7.27271" x2="13.36" y2="31.9999" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00EE7A"/>
-<stop offset="1" stop-color="#00C853"/>
-</linearGradient>
-<radialGradient id="paint1_radial_103_1456" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.4074 20.6087) rotate(78.4769) scale(11.6255)">
-<stop stop-color="#00EE7A"/>
-<stop offset="1" stop-color="#00C853"/>
-</radialGradient>
-<radialGradient id="paint2_radial_103_1456" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.95233 3.15425) rotate(78.4769) scale(11.6255)">
-<stop stop-color="#00EE7A"/>
-<stop offset="1" stop-color="#00C853"/>
-</radialGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_414" data-name="Group 414" transform="translate(-2 -2)">
+    <path id="Path_603" data-name="Path 603" d="M29.393,23.36c-.874-.733-6-3.979-6.852-3.83-.4.071-.706.412-1.525,1.389a11.687,11.687,0,0,1-1.244,1.347,10.757,10.757,0,0,1-2.374-.88A14.7,14.7,0,0,1,10.614,14.6a10.757,10.757,0,0,1-.88-2.374,11.687,11.687,0,0,1,1.347-1.244c.976-.819,1.318-1.123,1.389-1.525.149-.854-3.1-5.978-3.83-6.852C8.334,2.243,8.056,2,7.7,2,6.668,2,2,7.772,2,8.52c0,.061.1,6.07,7.689,13.791C17.41,29.9,23.419,30,23.48,30c.748,0,6.52-4.668,6.52-5.7,0-.356-.243-.634-.607-.94Z" transform="translate(0 0)"/>
+    <path id="Path_604" data-name="Path 604" d="M23,15h2a8.009,8.009,0,0,0-8-8V9a6.006,6.006,0,0,1,6,6Z" transform="translate(0 0)"/>
+    <path id="Path_605" data-name="Path 605" d="M28,15h2A13.015,13.015,0,0,0,17,2V4A11.013,11.013,0,0,1,28,15Z" transform="translate(0)"/>
+  </g>
 </svg>

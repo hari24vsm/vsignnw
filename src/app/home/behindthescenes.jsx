@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const BehindTheScenes = () => {
   const brands = [
@@ -28,7 +29,7 @@ const BehindTheScenes = () => {
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="text-[#00b050] text-2xl sm:text-3xl md:text-4xl font-bold mb-4 will-change-transform"
+            className="text-[#50B848] text-2xl sm:text-3xl md:text-4xl font-bold mb-4 will-change-transform"
           >
             Behind the Scenes
           </motion.h2>
@@ -67,7 +68,7 @@ const BehindTheScenes = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
-              className="overflow-hidden shadow-md rounded-xl will-change-transform"
+              className="overflow-hidden shadow-md  will-change-transform"
             >
               {item.type === "image" ? (
                 <motion.img
@@ -93,14 +94,16 @@ const BehindTheScenes = () => {
 
       {/* Button Section */}
       <div className="flex justify-center flex-wrap gap-3 sm:gap-4 m-6">
-        <motion.button
-          whileHover={{ scale: 1.07 }}
-          whileTap={{ scale: 0.95 }}
-          transition={{ type: "spring", stiffness: 300 }}
-          className="px-4 sm:px-6 py-2 rounded-full bg-[#00b050] text-white shadow-md hover:bg-white hover:text-[#00b050] text-xs sm:text-sm md:text-base font-medium transition-all duration-300 will-change-transform"
-        >
-          Behind The Scenes
-        </motion.button>
+        <Link href="/behindthescenes">
+          <motion.button
+            whileHover={{ scale: 1.07 }}
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="px-4 sm:px-6 py-2 rounded-full bg-[#50B848] text-white shadow-md hover:bg-white hover:text-[#00b050] text-xs sm:text-sm md:text-base font-medium transition-all duration-300 will-change-transform"
+          >
+            Behind The Scenes
+          </motion.button>
+        </Link>
       </div>
     </div>
   );

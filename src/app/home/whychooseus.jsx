@@ -46,15 +46,15 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="relative py-20 bg-white overflow-hidden">
+    <section className="relative py-20 overflow-hidden">
       {/* Background Texture */}
       {/* <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cartographer.png')] bg-contain opacity-10 pointer-events-none" /> */}
 
       <div className="relative max-w-5xl mx-auto px-6 text-center">
         {/* Heading */}
-        <p className="text-[#00b050] font-medium mb-2 text-lg">Why you choose us?</p>
+        <p className="text-[#50B848] font-medium mb-2 text-lg">Why you choose us?</p>
         <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-          Bringing Designs To <span className="text-[#00b050]">Life</span>
+          Bringing Designs To <span className="text-[#50B848]">Life</span>
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12 text-sm md:text-base">
           At VSign, you will always find the right signage to bring your brand to life.
@@ -83,7 +83,7 @@ export default function WhyChooseUs() {
                 >
                   <span
                     className={`font-semibold text-lg transition-colors duration-300 ${
-                      isOpen ? "text-[#00b050]" : "text-gray-800"
+                      isOpen ? "text-[#50B848]" : "text-gray-800"
                     }`}
                   >
                     {item.title}

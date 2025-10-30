@@ -79,8 +79,8 @@ export default function ClientsSay() {
   };
 
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-4 text-center">
+    <section className="py-10 ">
+      <div className="mx-auto px-4 text-center bg-[#F8F8F8] py-10">
         {/* Heading */}
         <motion.h2
           variants={fadeUp}

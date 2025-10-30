@@ -1,3 +1,4 @@
+import ContactForm from "./aboutus/letstalk/page";
 import BehindTheScenes from "./home/behindthescenes";
 import ClientsSay from "./home/clientssay";
 import DroneShoots from "./home/droneshoots";
@@ -12,7 +13,7 @@ import Videopage from "./video/page";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans bg-white">
+    <div className="font-sans">
       <div>
       <Videopage />
       <WhoWeAre/>
@@ -22,6 +23,7 @@ export default function Home() {
       <TheVSignWay/>
       <DroneShoots/>
       <ClientsSay/>
+      <ContactForm />
     </div>
     </div>
   );

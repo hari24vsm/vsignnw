@@ -6,14 +6,16 @@ import { motion } from "framer-motion";
 export default function Footer() {
   const footerLinks = {
     main: [
-      { label: "About Us", href: "/about-us" },
+      { label: "About Us", href: "/aboutus" },
       { label: "Our Services", href: "/services" },
       { label: "Portfolio", href: "/portfolio" },
-      { label: "Contact Us", href: "/contact-us" },
+      { label: "Contact Us", href: "/contactus" },
     ],
     social: [
       { label: "Instagram", href: "#", icon: "/instagram_icon.svg" },
       { label: "Facebook", href: "#", icon: "/facebook_icon.svg" },
+      { label: "Twitter", href: "#", icon: "/x.svg" },
+      { label: "Youtube", href: "#", icon: "/youtube.svg" },
     ],
   };
 
@@ -38,7 +40,7 @@ export default function Footer() {
         className="absolute inset-0  bg-cover bg-center pointer-events-none"
       />
 
-      <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-10 grid gap-10 md:gap-0 grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center will-change-transform">
+      <div className="relative max-w-8xl mx-auto px-6 md:px-12 py-10 grid gap-10 md:gap-0 grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center will-change-transform">
         {/* Left Section */}
         <motion.div
           variants={fadeSide(-1)}
@@ -46,7 +48,7 @@ export default function Footer() {
           whileInView="visible"
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="flex flex-col space-y-6 text-center md:text-left items-center md:items-start"
+          className="flex flex-col space-y-6 text-center md:text-left items-center md:items-start md:pr-5"
         >
           {/* Navigation */}
           <nav className="flex flex-wrap gap-4 md:gap-6 font-medium justify-center md:justify-start">
@@ -54,7 +56,7 @@ export default function Footer() {
               <Link
                 key={label}
                 href={href}
-                className="hover:text-green-600 transition-colors duration-300"
+                className="text-sm hover:text-green-600 transition-colors duration-300"
               >
                 {label}
               </Link>
@@ -75,7 +77,7 @@ export default function Footer() {
             ))}
           </div>
 
-          <p className="text-sm leading-6 max-w-xs">
+          <p className="text-xs leading-6 max-w-md">
             Plot No. 27 &amp; 28, Rd Number 1, Samathapuri Colony, New Nagole
             Colony,
             <br />
@@ -92,7 +94,7 @@ export default function Footer() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="flex flex-col items-center justify-center space-y-3"
         >
-          <div className="relative w-[180px] sm:w-[220px] h-[70px] sm:h-[90px]">
+          <div className="relative w-[180px] sm:w-[200px] h-[70px] sm:h-[90px]">
             <Image
               src="/vsignlogo.svg"
               alt="V Sign Logo"
@@ -118,7 +120,7 @@ export default function Footer() {
           whileInView="visible"
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="flex flex-col items-center md:items-end justify-center"
+          className="flex flex-col items-center md:items-end justify-center md:pl-7"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-lg md:max-w-md">
             {[
@@ -155,7 +157,7 @@ export default function Footer() {
                   href={`mailto:${email}`}
                   className="flex items-center gap-3 bg-white rounded-full px-4 py-3 shadow-sm justify-center text-xs sm:text-sm hover:bg-green-50 hover:shadow-md transition"
                 >
-                  <Image src="/email.svg" alt="Mail" width={18} height={18} />
+                  
                   <span className="truncate max-w-[180px] sm:max-w-none">{email}</span>
                 </Link>
               </motion.div>
@@ -174,6 +176,7 @@ export default function Footer() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex flex-col md:flex-row justify-between items-center text-xs md:text-sm text-gray-600 space-y-2 md:space-y-0">
           <p>© 2022 V Sign Pvt Ltd – All Rights Reserved.</p>
+          <p>Crafted By - Outlinemedia.in</p>
         </div>
       </motion.div>
     </footer>

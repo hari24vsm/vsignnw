@@ -57,7 +57,7 @@ function AnimatedNumber({ value, duration = 1800 }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="text-3xl sm:text-4xl font-bold text-[#00b050] mb-1"
+      className="text-3xl sm:text-4xl font-bold text-[#50B848] mb-1"
     >
       {count.toLocaleString()}
       {suffix}
@@ -84,7 +84,7 @@ export default function StatsAndClients() {
   ];
 
   return (
-    <section className="relative py-20 bg-white overflow-hidden">
+    <section className="relative py-20  overflow-hidden">
       {/* Background Texture */}
       {/* <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cartographer.png')] bg-contain opacity-10 pointer-events-none" /> */}
 
@@ -109,7 +109,7 @@ export default function StatsAndClients() {
           viewport={{ once: true }}
           className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-10 leading-snug"
         >
-          Signages implemented <br className="block md:hidden" /> in just 1 year
+          Signages implemented <br  /> in just 1 year
         </motion.h2>
 
         {/* ===== Container ===== */}
@@ -131,7 +131,7 @@ export default function StatsAndClients() {
                 transition={{ type: "spring", stiffness: 250, damping: 18 }}
                 className={`px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm md:text-base font-medium transition-all duration-300 ${
                   activeTab === tab
-                    ? "bg-[#00b050] text-white shadow-md"
+                    ? "bg-[#50B848] text-white shadow-md"
                     : "text-gray-600 hover:text-[#00b050]"
                 }`}
               >

@@ -1,15 +1,16 @@
 "use client";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
-import {
-  ClipboardCheck,
-  FileCheck2,
-  PenTool,
-  DollarSign,
-  FileSignature,
-  LayoutGrid,
-  Settings,
-  Wrench,
-} from "lucide-react";
+
+// Import SVGs as images
+import ClipboardCheck from "../../../public/require.svg";
+import FileCheck2 from "../../../public/survey.svg";
+import PenTool from "../../../public/concept.svg";
+import DollarSign from "../../../public/cost.svg";
+import FileSignature from "../../../public/approve.svg";
+import LayoutGrid from "../../../public/conceptd.svg";
+import Settings from "../../../public/product.svg";
+import Wrench from "../../../public/inst.svg";
 
 export default function TheVSignWay() {
   const prefersReducedMotion = useReducedMotion();
@@ -27,23 +28,20 @@ export default function TheVSignWay() {
 
   return (
     <section className="relative bg-white overflow-hidden">
-      {/* Background pattern */}
-      {/* <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cartographer.png')] bg-contain opacity-10 pointer-events-none" /> */}
-
       {/* Our Services Button */}
       <div className="relative flex justify-center py-10">
         <motion.button
           whileHover={!prefersReducedMotion ? { scale: 1.05 } : {}}
           whileTap={!prefersReducedMotion ? { scale: 0.97 } : {}}
           transition={{ duration: 0.2 }}
-          className="bg-[#00b050] text-white px-6 py-2 rounded-full text-sm font-medium shadow-md hover:bg-[#009640] transition"
+          className="bg-[#50B848] text-white px-6 py-2 rounded-full text-sm font-medium shadow-md hover:bg-[#009640] transition"
         >
           Our Services
         </motion.button>
       </div>
 
       {/* Green Section */}
-      <div className="relative bg-[#00b050] text-white py-16 px-4 md:px-12">
+      <div className="relative bg-[#50B848] text-white py-16 px-4 md:px-12">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">The VSign Way</h2>
           <p className="text-white/90 text-sm md:text-base mb-12">
@@ -65,13 +63,19 @@ export default function TheVSignWay() {
                 }}
                 className="relative flex flex-col items-center text-center"
               >
-                {/* Circle Icon */}
+                {/* Circle Icon with SVG image */}
                 <motion.div
                   whileHover={!prefersReducedMotion ? { scale: 1.08, rotate: 3 } : {}}
                   transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                  className="w-16 h-16 md:w-20 md:h-20 bg-white text-[#00b050] rounded-full flex items-center justify-center shadow-md relative z-10"
+                  className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center shadow-md relative z-10"
                 >
-                  <step.icon className="w-8 h-8 md:w-10 md:h-10" />
+                  <Image
+                    src={step.icon}
+                    alt={step.title}
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
                 </motion.div>
 
                 {/* Dashed line (except last) */}

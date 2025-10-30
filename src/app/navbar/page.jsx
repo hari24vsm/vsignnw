@@ -23,7 +23,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md text-white shadow-sm z-[100] transition-colors duration-300">
 
 
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-2">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 pt-1">
         {/* Logo + Rating */}
         <div className="flex items-center gap-3 sm:gap-5">
           <Link

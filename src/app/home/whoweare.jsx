@@ -12,9 +12,9 @@ export default function WhoWeAre() {
           <p className="text-gray-600 font-medium mb-2 text-sm sm:text-base">
             Who We Are
           </p>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-black">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl  mb-4 text-black">
             A Sign Of The{" "}
-            <span className="text-[#00b050]">Success</span>
+            <span className=" font-bold">Success</span>
           </h2>
           <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto mb-10 text-sm sm:text-base">
             Established in 2013, VSign is a custom signage design and manufacturing company

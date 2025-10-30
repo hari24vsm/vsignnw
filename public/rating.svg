@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210.874" height="80.37" viewBox="0 0 210.874 80.37">
+  <g id="Group_600" data-name="Group 600" transform="translate(-497.456 -65.699)">
+    <path id="Path_846" data-name="Path 846" d="M-4995.209,21980v69.633" transform="translate(5493.165 -21903.568)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Group_599" data-name="Group 599">
+      <text id="_4.52" data-name="4.52" transform="translate(543.33 92.699)" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">4.52</tspan></text>
+      <g id="Group_598" data-name="Group 598">
+        <text id="Average_rating_from_761_reviews" data-name="Average rating from 761 reviews" transform="translate(543.33 143.068)" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="-0.02em"><tspan x="0" y="0">Average rating from 761 reviews</tspan></text>
+        <g id="Group_597" data-name="Group 597" transform="translate(0 5)">
+          <path id="Path_850" data-name="Path 850" d="M8.766,7.944,0,9.218,6.343,15.4l-1.5,8.73,7.84-4.122,7.841,4.122-1.5-8.73,6.343-6.183L16.606,7.944,12.686,0Z" transform="translate(543 97.632)" fill="#ffb900"/>
+          <path id="Path_851" data-name="Path 851" d="M116.356,7.944,107.59,9.218l6.343,6.183-1.5,8.73,7.84-4.122,7.841,4.122-1.5-8.73,6.343-6.183L124.2,7.944,120.276,0Z" transform="translate(470.41 97.632)" fill="#ffb900"/>
+          <path id="Path_852" data-name="Path 852" d="M223.947,7.944l-8.766,1.274,6.343,6.183-1.5,8.73,7.84-4.122,7.841,4.122-1.5-8.73,6.343-6.183-8.766-1.274L227.867,0Z" transform="translate(396.819 97.632)" fill="#ffb900"/>
+          <path id="Path_853" data-name="Path 853" d="M331.537,7.944l-8.766,1.274,6.343,6.183-1.5,8.73,7.84-4.122,7.841,4.122-1.5-8.73,6.343-6.183-8.766-1.274L335.457,0Z" transform="translate(324.229 97.632)" fill="#ffb900"/>
+          <g id="Group_596" data-name="Group 596" transform="translate(3.293)">
+            <path id="Path_854" data-name="Path 854" d="M439.128,7.944l-8.766,1.274,6.343,6.183-1.5,8.73,7.84-4.122,7.841,4.122-1.5-8.73,6.343-6.183-8.766-1.274L443.049,0Z" transform="translate(248.344 97.632)" fill="#75767a"/>
+            <path id="Path_855" data-name="Path 855" d="M443.048,0,439.13,7.942l-8.766,1.274,6.344,6.182-1.5,8.733,7.84-4.123Z" transform="translate(248.344 97.633)" fill="#ffb900"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

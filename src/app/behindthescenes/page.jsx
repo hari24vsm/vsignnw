@@ -47,7 +47,7 @@ export default function BehindPage() {
       <section
         ref={mainRef}
         data-section="main"
-        className="pt-[100px] relative w-full overflow-hidden px-6 md:px-16 py-16 flex flex-col md:flex-row items-center justify-between gap-10"
+        className="pt-[100px] relative w-full overflow-hidden px-6 md:px-16 py-16 flex flex-col md:flex-row items-center justify-between gap-10 bg-white"
       >
         {/* Left Text Section */}
         <div
@@ -55,7 +55,7 @@ export default function BehindPage() {
             visibleSections.main ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
           }`}
         >
-          <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-30">
+          <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-30 text-black">
             Behind The<br />
             <span className="text-[#00b050]">Scenes</span>
           </h2>
@@ -91,7 +91,7 @@ export default function BehindPage() {
       <section
         ref={galleryRef}
         data-section="gallery"
-        className="relative w-full px-6 md:px-16 py-16 overflow-hidden"
+        className="relative w-full px-6 md:px-16 py-16 overflow-hidden bg-white"
       >
         <div
           className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 auto-rows-[200px] md:auto-rows-[250px] transition-all duration-700 ${

@@ -12,7 +12,7 @@ const ContactForm = dynamic(() => import("./letstalk/page"), { ssr: false });
 export default function AboutUs() {
   
   return (
-    <section className=" relative  overflow-hidden pt-16 md:pt-20">
+    <section className=" relative  overflow-hidden pt-16 md:pt-20 bg-white">
       {/* Section 1 */}
       <div
         className="pt-[80] max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16 px-6 md:px-10 will-change-transform"

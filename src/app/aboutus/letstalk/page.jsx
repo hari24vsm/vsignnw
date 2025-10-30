@@ -40,7 +40,7 @@ export default function ContactForm() {
 
   return (
     <div className="py-16 px-10 text-center ">
-      <h2 className="text-xl md:text-2xl font-semibold mb-8">
+      <h2 className="text-xl md:text-2xl font-semibold mb-8 text-black">
         Let’s Take You To The World!
       </h2>
       <form
@@ -53,7 +53,7 @@ export default function ContactForm() {
           placeholder="Your Name"
           value={formData.name}
           onChange={handleChange}
-          className="border-b border-gray-400 focus:border-green-500 outline-none py-2 text-sm"
+          className="border-b border-gray-400 focus:border-green-500 outline-none py-2 text-sm text-black"
           required
         />
         <input
@@ -62,7 +62,7 @@ export default function ContactForm() {
           placeholder="Your Email ID"
           value={formData.email}
           onChange={handleChange}
-          className="border-b border-gray-400 focus:border-green-500 outline-none py-2 text-sm"
+          className="border-b border-gray-400 focus:border-green-500 outline-none py-2 text-sm text-black"
           required
         />
         <input
@@ -71,7 +71,7 @@ export default function ContactForm() {
           placeholder="Your Mobile No"
           value={formData.phone}
           onChange={handleChange}
-          className="border-b border-gray-400 focus:border-green-500 outline-none py-2 text-sm"
+          className="border-b border-gray-400 focus:border-green-500 outline-none py-2 text-sm text-black"
           required
         />
         <div className="col-span-full">

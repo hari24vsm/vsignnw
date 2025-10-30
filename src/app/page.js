@@ -12,7 +12,7 @@ import Videopage from "./video/page";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans bg-[url('/bg.webp')] bg-cover bg-no-repeat">
+    <div className="flex min-h-screen items-center justify-center font-sans bg-white">
       <div>
       <Videopage />
       <WhoWeAre/>

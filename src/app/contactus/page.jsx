@@ -22,7 +22,7 @@ export default function ContactLocation() {
     return (
         <section
             id="contact-map"
-            className={`w-full pt-[70px] md:pt-[85px] transition-opacity duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            className={`bg-white w-full pt-[70px] md:pt-[85px] transition-opacity duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
                 }`}
         >
             {/* image */}

@@ -47,7 +47,7 @@ export default function DroneShoots() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="text-xl md:text-2xl font-semibold mb-8"
+        className="text-xl md:text-2xl font-semibold mb-8 text-black"
       >
         Drone Shoots
       </motion.h3>

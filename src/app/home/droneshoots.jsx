@@ -17,23 +17,23 @@ export default function DroneShoots() {
   const brands = [
     {
       name: "IKEA",
-      media: [{ type: "image", src: "https://picsum.photos/800/400?random=1" }],
+      media: [{ type: "image", src: "./assets/sam.jpg" }],
     },
     {
       name: "Sumadhura",
-      media: [{ type: "image", src: "https://picsum.photos/800/400?random=3" }],
+      media: [{ type: "image", src: "./assets/sam.jpg" }],
     },
     {
       name: "Vamsiram Builders",
-      media: [{ type: "image", src: "https://picsum.photos/800/400?random=5" }],
+      media: [{ type: "image", src: "./assets/sam.jpg" }],
     },
     {
       name: "ITC Hotels",
-      media: [{ type: "image", src: "https://picsum.photos/800/400?random=6" }],
+      media: [{ type: "image", src: "./assets/sam.jpg" }],
     },
     {
       name: "Lansum",
-      media: [{ type: "video", src: "https://www.w3schools.com/html/mov_bbb.mp4" }],
+      media: [{ type: "image", src: "./assets/sam.jpg" }],
     },
   ];
 
@@ -61,7 +61,7 @@ export default function DroneShoots() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 250, damping: 18 }}
-            className={`px-6 py-2 rounded-full text-sm font-medium transition-colors duration-300 ${
+            className={`cursor-pointer px-6 py-2 rounded-full text-sm font-medium transition-colors duration-300 ${
               activeBrand.name === brand.name
                 ? "bg-[#50B848] text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"

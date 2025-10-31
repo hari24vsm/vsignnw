@@ -175,8 +175,7 @@ export default function Footer() {
         className="border-t border-gray-300 relative"
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex flex-col md:flex-row justify-between items-center text-xs md:text-sm text-gray-600 space-y-2 md:space-y-0">
-          <p>© 2022 V Sign Pvt Ltd – All Rights Reserved.</p>
-          <p>Crafted By - Outlinemedia.in</p>
+          <p>© 2025 V Sign Pvt Ltd – All Rights Reserved.</p>
         </div>
       </motion.div>
     </footer>

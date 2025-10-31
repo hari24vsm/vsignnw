@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const BehindTheScenes = () => {
   const brands = [
-    { type: "image", src: "https://picsum.photos/800/400?random=1" },
-    { type: "image", src: "https://picsum.photos/800/400?random=2" },
+    { type: "image", src: "./assets/bhhm.jpg" },
+    { type: "image", src: "./assets/bhhm.jpg" },
   ];
 
   // Reusable variants
@@ -99,7 +99,7 @@ const BehindTheScenes = () => {
             whileHover={{ scale: 1.07 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="px-4 sm:px-6 py-2 rounded-full bg-[#50B848] text-white shadow-md hover:bg-white hover:text-[#00b050] text-xs sm:text-sm md:text-base font-medium transition-all duration-300 will-change-transform"
+            className="cursor-pointer px-4 sm:px-6 py-2 rounded-full bg-[#50B848] text-white shadow-md hover:bg-white hover:text-[#00b050] text-xs sm:text-sm md:text-base font-medium transition-all duration-300 will-change-transform"
           >
             Behind The Scenes
           </motion.button>

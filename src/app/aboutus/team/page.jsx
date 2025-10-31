@@ -117,14 +117,14 @@ export default function CreativeTeam() {
         <div className="flex justify-center mt-10 gap-4">
           <button
             onClick={prevSlide}
-            className="bg-black text-white rounded-full p-3 hover:scale-110 transition"
+            className="cursor-pointer bg-black text-white rounded-full p-3 hover:scale-110 transition"
             aria-label="Previous team member"
           >
             <ChevronLeft size={20} />
           </button>
           <button
             onClick={nextSlide}
-            className="bg-green-500 text-white rounded-full p-3 hover:scale-110 transition"
+            className="cursor-pointer bg-green-500 text-white rounded-full p-3 hover:scale-110 transition"
             aria-label="Next team member"
           >
             <ChevronRight size={20} />

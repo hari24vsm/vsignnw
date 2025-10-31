@@ -106,7 +106,7 @@ export default function Videopage() {
 
       {/* Typing Text */}
       <div
-        className={`absolute bottom-24 left-1/2 -translate-x-1/2 z-10 text-center max-w-3xl transform transition-all duration-700 ease-out ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+        className={`absolute bottom-15 left-1/2 -translate-x-1/2 z-10 text-center max-w-3xl transform transition-all duration-700 ease-out ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
       >
         <h1 className="text-2xl md:text-4xl font-light tracking-wide drop-shadow-[0_0_20px_rgba(0,0,0,0.3)]">

@@ -79,7 +79,7 @@ export default function WhyChooseUs() {
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   whileTap={!prefersReducedMotion ? { scale: 0.98 } : {}}
                   transition={{ duration: 0.15 }}
-                  className="w-full flex justify-between items-center py-3 text-left"
+                  className="cursor-pointer w-full flex justify-between items-center py-3 text-left"
                 >
                   <span
                     className={`font-semibold text-lg transition-colors duration-300 ${

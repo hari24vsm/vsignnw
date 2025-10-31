@@ -24,7 +24,7 @@ export default function AboutUs() {
             width={700}
             height={500}
             priority
-            className=" object-cover transform-gpu transition-transform duration-500 hover:scale-105"
+            className=" object-cover w-full h-auto transform-gpu transition-transform duration-500 hover:scale-105"
           />
         </div>
         <div className="w-full md:w-1/2">

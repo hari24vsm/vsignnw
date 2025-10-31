@@ -78,7 +78,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={loading}
-            className="bg-green-500 text-white font-medium rounded-full px-8 py-2 mt-6 hover:bg-green-600 transition-all disabled:opacity-60"
+            className="cursor-pointer bg-green-500 text-white font-medium rounded-full px-8 py-2 mt-6 hover:bg-green-600 transition-all disabled:opacity-60"
           >
             {loading ? "Sending..." : "Submit"}
           </button>

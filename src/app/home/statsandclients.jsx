@@ -129,7 +129,7 @@ export default function StatsAndClients() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
                 transition={{ type: "spring", stiffness: 250, damping: 18 }}
-                className={`px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm md:text-base font-medium transition-all duration-300 ${
+                className={`cursor-pointer px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm md:text-base font-medium transition-all duration-300 ${
                   activeTab === tab
                     ? "bg-[#50B848] text-white shadow-md"
                     : "text-gray-600 hover:text-[#00b050]"

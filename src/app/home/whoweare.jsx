@@ -26,44 +26,48 @@ export default function WhoWeAre() {
       </section>
 
       {/* Image Row */}
-      <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 px-3 sm:px-4 md:px-6">
-        {/* Each image block */}
-        <div className="w-[45%] sm:w-[30%] md:w-[18%] min-w-[160px] overflow-hidden  shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
+      <div className="flex justify-center items-stretch gap-3 sm:gap-4 md:gap-6 overflow-hidden px-1">
+        {/* 1 */}
+        <div className="w-[20%] sm:w-[22%] md:w-[20%] overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
           <img
-            src="/assets/mask1.webp"
+            src="/assets/boutique.png"
             alt="Gallery 1"
             loading="lazy"
-            className="w-full h-[180px] sm:h-[200px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
+            className="w-full h-[200px] sm:h-[220px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
           />
         </div>
 
-        <div className="w-[90%] sm:w-[60%] md:w-[40%] min-w-[200px] overflow-hidden  shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
+        {/* 2 */}
+        <div className="w-[40%] sm:w-[36%] md:w-[35%] overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
           <img
-            src="/assets/mask2.webp"
+            src="/assets/Seetha.png"
             alt="Gallery 2"
             loading="lazy"
-            className="w-full h-[180px] sm:h-[200px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
+            className="w-full h-[200px] sm:h-[220px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
           />
         </div>
 
-        <div className="w-[40%] sm:w-[25%] md:w-[10%] min-w-[160px] overflow-hidden  shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
+        {/* 3 */}
+        <div className="w-[15%] sm:w-[18%] md:w-[14%] overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
           <img
-            src="/assets/mask3.webp"
+            src="/assets/barcelos.png"
             alt="Gallery 3"
             loading="lazy"
-            className="w-full h-[180px] sm:h-[200px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
+            className="w-full h-[200px] sm:h-[220px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
           />
         </div>
 
-        <div className="w-[60%] sm:w-[35%] md:w-[25%] min-w-[160px] overflow-hidden  shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
+        {/* 4 */}
+        <div className="w-[25%] sm:w-[24%] md:w-[23%] overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
           <img
-            src="/assets/mask4.webp"
+            src="/assets/shakeitup.png"
             alt="Gallery 4"
             loading="lazy"
-            className="w-full h-[180px] sm:h-[200px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
+            className="w-full h-[200px] sm:h-[220px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"
           />
         </div>
       </div>
+
     </div>
   );
 }

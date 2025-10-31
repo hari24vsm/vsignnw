@@ -40,7 +40,7 @@ export default function WhoWeAre() {
         {/* 2 */}
         <div className="w-[40%] sm:w-[36%] md:w-[35%] overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
           <img
-            src="/assets/Seetha.png"
+            src="/assets/seetha.png"
             alt="Gallery 2"
             loading="lazy"
             className="w-full h-[200px] sm:h-[220px] md:h-[240px] object-cover object-center transform transition-transform duration-500 hover:scale-105"

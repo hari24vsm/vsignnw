@@ -14,7 +14,7 @@ export default function Videopage() {
     "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video2.mp4",
     "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video3.mp4"
   ];
-  
+
   const mobileVideo = "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/top.mp4";
 
   useEffect(() => {
@@ -105,27 +105,15 @@ export default function Videopage() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
 
       {/* Typing Text */}
-      {/* <div
-        className={`absolute top-24 left-6 md:left-16 z-10 max-w-3xl transform transition-all duration-700 ease-out ${
-          visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-        }`}
+      <div
+        className={`absolute bottom-24 left-1/2 -translate-x-1/2 z-10 text-center max-w-3xl transform transition-all duration-700 ease-out ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          }`}
       >
-        <TextType
-          as="h1"
-          text={[
-            "We Build Icons.",
-            "Signage That Defines Presence.",
-            "Hyderabad's No.1 Signage Partner.",
-            "Signs that shine brighter, last longer.",
-          ]}
-          typingSpeed={60}
-          pauseDuration={4000}
-          showCursor={true}
-          cursorCharacter="|"
-          className="text-4xl md:text-6xl font-light tracking-wide text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.6)]"
-          textColors={["#FFFFFF"]}
-        />
-      </div> */}
+        <h1 className="text-2xl md:text-4xl font-light tracking-wide drop-shadow-[0_0_20px_rgba(0,0,0,0.3)]">
+          <span className="text-[#50B848] font-bold">Hyderabad's No.1 </span>{" "}
+          <span className="text-white">Signage Partner</span>
+        </h1>
+      </div>
 
       {/* Get Quote Button */}
       {/* <div

@@ -6,7 +6,7 @@ import StatsAndClients from "./home/statsandclients";
 import TheVSignWay from "./home/thevsignway";
 import WhoWeAre from "./home/whoweare";
 import WhyChooseUs from "./home/whychooseus";
-// import Videopage from "./video/page";
+import Videopage from "./video/page";
 
 
 
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div >
       <div>
-      {/* <Videopage /> */}
+      <Videopage />
       <WhoWeAre/>
       <StatsAndClients/>
       <BehindTheScenes/>

@@ -9,13 +9,13 @@ export default function Videopage() {
   const heroRef = useRef(null);
   const videoRef = useRef(null);
 
-  const desktopVideos = [
-    "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video1.mp4",
-    "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video2.mp4",
-    "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video3.mp4"
-  ];
+  // const desktopVideos = [
+  //   "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video1.mp4",
+  //   "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video2.mp4",
+  //   "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/video3.mp4"
+  // ];
 
-  const mobileVideo = "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/top.mp4";
+  // const mobileVideo = "https://outqinjxtp4ybt80.public.blob.vercel-storage.com/videos/top.mp4";
 
   useEffect(() => {
     // Detect mobile

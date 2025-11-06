@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  /* config options here */
+/** @type {import('tailwindcss').Config} */
+const config = {
+ 
 };
 
-export default nextConfig;
+export default config;
